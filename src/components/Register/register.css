@@ -1,0 +1,198 @@
+.ui-page{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  background-color: lightgray;
+  border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.reg-page{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 30vw;
+  padding: 20px;
+  margin-left: 0px;
+  box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.08);
+  margin-right: 150px;
+  background-color: white;
+  border-radius: 30px;
+}
+.logo{
+    height: 10vh;
+    width: 8vw;
+}
+.signUpHead{
+    font-size: 30px;
+    color: purple;
+    font-family: 'Roboto';
+}
+.signUpPara{
+    font-size: 25px;
+    color: black;
+    font-family: 'Roboto';
+    margin-top: 1px;
+    margin-bottom: 30px;
+}
+.reg-details{
+    display: flex;
+    flex-direction: column;
+}
+.reg-term-priv{
+    display: flex;
+    align-items: center;
+}
+.label{
+    font-size: 22px;
+    font-family: 'Roboto';
+} 
+.input{
+    border-radius: 5px;
+    border: 1px solid #7e858e;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 15px;
+    outline: none;
+}
+.inputBox {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+.button {
+    color: #ffffff;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Roboto';
+    padding: 5px;
+    height: 35px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+span {
+    color: blue;
+}
+.ui-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: lightgray;
+    border-bottom-right-radius: 15px;
+      border-top-right-radius: 15px;
+  }
+  .success-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 30vw;
+    padding: 20px;
+    margin-left: 0px;
+    box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.08);
+    margin-right: 150px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .logo{
+    height: 10vh;
+    width: 8vw;
+    margin-bottom: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    .ui-page{
+        margin: 5px;
+        border-bottom-right-radius: 10px;
+          border-top-right-radius: 10px;
+    }
+    .reg-page{
+        height: 90vh;
+        width: 50%;
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin: 10px;
+    }
+    .logo{
+        height: 6vh;
+    width: 7vw;
+    margin-bottom: 30px;
+    }
+    .signUpHead{
+        font-size: 13px;
+    }
+    .signUpPara{
+        font-size: 9px;
+        margin-top: 1px;
+        margin-bottom: 20px;
+    }
+    .reg-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .reg-term-priv{
+        display: flex;
+        align-items: center;
+    }
+    .label{
+        font-size: 8px;
+      } 
+      .input{
+        height: 10px;
+        margin-top: 5px;
+        font-size: 10px;
+        padding: 10px;
+      }
+      .inputBox {
+        margin-right: 5px;
+        height: 10px;
+        width: 10px;
+      }
+      .input-label{
+        font-size: 10px;
+      }
+    .button {
+        font-size: 12px;
+        padding: 5px;
+        height: 25px;
+        margin: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    span {
+        color: blue;
+    }
+    .ui-page{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        background-color: lightgray;
+        border-bottom-right-radius: 15px;
+          border-top-right-radius: 15px;
+      }
+      .success-page{
+        height: 50vh;
+        width: 40vw;
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 20px;
+      }
+      .logo{
+        height: 10vh;
+        width: 16vw;
+        margin-bottom: 25px;
+      }
+  }
